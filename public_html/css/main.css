@@ -1,15 +1,59 @@
-#home {
-    background-color: yellowgreen;
+* {
+    font-family: initial ;
+}
+
+#logo_menu {
+    width: 250px;
+    height: auto;
+}
+
+#card_prof_1 {
+    height: 400px;
+}
+
+#card_prof_2 {
+    height: 400px;
+}
+
+#card_prof_3 {
+    height: 400px;
+}
+
+#card_prof_4 {
+    height: 400px;
+}
+
+#card_prof_5 {
+    height: 400px;
+}
+
+#card_prof_6 {
+    height: 400px;
 }
 
 #alunos {
-    background-color: yellow;
+    background-color: #f1f1f1;
 }
 
-#professores {
-    background-color: black;
+#card_instituicao {
+    height: 425px;
 }
 
-#instituicao {
-    background-color: red;
+/* Configurações Footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100px;
+
+    margin-top: 30px;
+
+    background-color: #343A40;
+}
+
+footer > span {
+    font-weight: 300;
+    font-size: 16px;
+    color: #ffffff;
 }
