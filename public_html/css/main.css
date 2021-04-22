@@ -1,42 +1,45 @@
+/*Importar fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Open+Sans&display=swap');
+
+/*Configurações gerais*/
 * {
-    font-family: initial ;
+    font-family: 'Graduate', cursive;
 }
 
+/*Configurações menu*/
 #logo_menu {
     width: 250px;
     height: auto;
 }
 
-#card_prof_1 {
-    height: 400px;
+body {
+    background-color: #e6e6e6;
 }
 
-#card_prof_2 {
-    height: 400px;
-}
-
-#card_prof_3 {
-    height: 400px;
-}
-
-#card_prof_4 {
-    height: 400px;
-}
-
-#card_prof_5 {
-    height: 400px;
-}
-
-#card_prof_6 {
-    height: 400px;
+/*Configuração dos cards*/
+.card {
+    background-color: #e6e6e6;
 }
 
 #alunos {
-    background-color: #f1f1f1;
+    background-color: #e6e6e6;
 }
 
 #card_instituicao {
     height: 425px;
+}
+
+.card-text{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Configuração hr*/
+hr {
+    height: 2px;
+    background-color: #343A40;
+    width: 95%;
 }
 
 /* Configurações Footer */
@@ -55,5 +58,5 @@ footer {
 footer > span {
     font-weight: 300;
     font-size: 16px;
-    color: #ffffff;
+    color: #FFB547;
 }
